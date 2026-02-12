@@ -6,11 +6,11 @@ public class Velo{
 	private double diamRoue;
 	private Random genAlea = new Random();
 	
-	public double getDEFAUT_BRAQUET() {
+	public static double getDEFAUT_BRAQUET() {
 		return DEFAUT_BRAQUET;
 	}
 	
-	public void setDEFAUT_BRAQUET(double DEFAUT_BRAQUET) {
+	public static void setDEFAUT_BRAQUET(double DEFAUT_BRAQUET) {
 		Velo.DEFAUT_BRAQUET = DEFAUT_BRAQUET;
 	}
 	
@@ -65,7 +65,7 @@ public class Velo{
 	public static void main(String[] args) {
 		Velo test = new Velo();
 		System.out.println(test);
-		System.out.println(test.getDEFAUT_BRAQUET());
+		System.out.println(Velo.getDEFAUT_BRAQUET());
 		System.out.println(test.getGenAlea());
 		System.out.println(test.getPuissance(3.0));
 	}
