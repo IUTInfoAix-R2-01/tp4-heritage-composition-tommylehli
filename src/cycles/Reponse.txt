@@ -1,0 +1,14 @@
+Exercice 5 
+Donner une méthode déjà défini dans la classe de base une autre définition.
+
+Exercice 6
+Les méthodes redéfinies sont toString et getPuissance
+
+Exercice 7
+C'est un marqueur pour vérifier la réécriture de méthodes héritées.
+
+Exercice 8
+@Override permet de vérifier si les deux méthodes sont exactements les mêmes (fautes d'écriture) et permet aussi de rendre les méthodes plus lisibles.
+
+Exercice 10
+Cela siginifie qu'on appel le getPuissance de la classe de base, donc de Velo.
